@@ -1,1 +1,0 @@
-cmd_/home/splinter1984/Documents/programming/linuxdd_ver0/linuxdd/hello.mod := { echo  /home/splinter1984/Documents/programming/linuxdd_ver0/linuxdd/hello.o; echo; } > /home/splinter1984/Documents/programming/linuxdd_ver0/linuxdd/hello.mod
