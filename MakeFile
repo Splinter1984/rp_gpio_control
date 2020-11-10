@@ -1,4 +1,4 @@
-obj-m = hello.o
+obj-m=myCharDev.o
 
 KVERSION=$(shell uname -r)
 

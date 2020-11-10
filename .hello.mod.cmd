@@ -1,1 +1,1 @@
-cmd_/home/pi/hello_world/hello.mod := { echo  /home/pi/hello_world/hello.o; echo; } > /home/pi/hello_world/hello.mod
+cmd_/home/splinter1984/Documents/programming/linuxdd_ver0/linuxdd/hello.mod := { echo  /home/splinter1984/Documents/programming/linuxdd_ver0/linuxdd/hello.o; echo; } > /home/splinter1984/Documents/programming/linuxdd_ver0/linuxdd/hello.mod
