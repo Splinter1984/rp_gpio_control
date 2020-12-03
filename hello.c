@@ -15,4 +15,5 @@ static void hello_exit(void)
 module_init(hello_init);
 module_exit(hello_exit);
 MODULE_LICENSE("GPL");
+MODULE_VERSION("0.1");
 MODULE_AUTHOR("SPLINTER1984");
