@@ -49,7 +49,6 @@ static struct file_operations led_ops=
     .open = led_open,
     .release = led_release,
     .write = led_write,
-
 };
 
 static int __init led_init(void)
@@ -101,7 +100,6 @@ static int __init led_init(void)
     }
 
     //create device
-    
     LED_device.ledDev = device_create(LED_device.ledClass, NULL, LED_device.devno, NULL, LED_DEV_NAME);
     if (IS_ERR(LED_device.ledDev))
     {
