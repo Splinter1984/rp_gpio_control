@@ -1,9 +1,18 @@
-obj-m = hello.o
+ifneq ($(KERNELRELEASE),)
 
-KVERSION=$(shell uname -r)
+obj-m := raspi_led.o
+
+else
+
+
+KERNDIR := /usr/src/linux-headers-$(shell uname -r)
+PWD := $(shell pwd)
+
 
 all:
-	make -C /lib/modules/$(KVERSION)/build M=$(PWD) modules
+	make -C $(KERNDIR) M=$(PWD) modules
 
 clean:
-	make -C /lib/modules/$(KVERSION)/build M=$(PWD) clean
+	rm -rf *.o *.ko .*.cmd *.mod.c *.symvers *.order *.mk .*.mk .tmp_versions/ 
+
+endif
