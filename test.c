@@ -19,7 +19,7 @@ int main(){
     printf("|    -||   __|  | || -_|| . |Release: ver 0.1\n");
     printf("|__|__||__|     |_||___||___|Author: Splinter1984\n");
     printf("\n");
-    printf("raspiLedDev_test: enter [<GPIO pin> <ON 1)|OFF 0>] ");
+    printf("raspiLedDev_test: enter <GPIO pin> <ON 1|OFF 0> ");
     scanf("%u %d", &port, &val);
     
     int fd;
