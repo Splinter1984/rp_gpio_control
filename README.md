@@ -15,7 +15,7 @@ Install the module.
 sudo insmod raspi_led.ko
 ```
 
-Run.
+Build test.c file and run it.
 
 ```
 gcc -o test test.c
