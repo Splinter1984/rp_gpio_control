@@ -1,7 +1,7 @@
 # Linux driver programming practice.
 ![](https://img.shields.io/badge/made%20by-splinter1984-blue)
 
-Kernel module that provides access to LEDs connected to the GPIO output of raspberry pi.
+Kernel module that provides access to LEDs connected to the GPIO output of raspberry pi. You can link to any of the GUIO pins and set a value on it.
 Clone the repository and make it in that directory.
 
 ```
