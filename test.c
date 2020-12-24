@@ -1,12 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <fcntl.h>
 #include <unistd.h>
-
-#include <getopt.h>
-
 #include "raspi_led.h"
 
 GPIO_data gpio_data;
