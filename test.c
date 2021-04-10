@@ -31,7 +31,7 @@ int main(){
     count = write(fd, (void *) &gpio_data, sizeof(GPIO_data));
     if (count == -1){
         printf("raspiLedDev_test: write fail\n");
-        exit(-1);
+        return -1;
     }
     printf("raspiLedDev_test: write %ld bytes\n", count);
 
