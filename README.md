@@ -1,6 +1,5 @@
 # Linux driver programming practice.
 ![](https://img.shields.io/badge/made%20by-splinter1984-blue)	
-<img alt="Raspberry Pi" src="https://img.shields.io/badge/-RaspberryPi-C51A4A?style=for-the-badge&logo=Raspberry-Pi"/>" />
 
 Kernel module that provides access to LEDs connected to the GPIO output of raspberry pi. You can link to any of the GUIO pins and set a value on it.
 
