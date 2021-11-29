@@ -7,6 +7,8 @@ Kernel module that provides access to LEDs connected to the GPIO output of raspb
 Clone the repository and make it in that directory.
 
 ```
+git clone git@github.com:Splinter1984/rp_gpio_control.git
+cd rp_gpio_control/
 make
 ```
 
